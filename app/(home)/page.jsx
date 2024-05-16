@@ -48,7 +48,7 @@ const page = () => {
         <Card
           backgroundColor="#324242"
           text="Discover yourself"
-          content="/compo.mp4"
+          content="/compo-enhanced.mp4"
           className=""
         />
       </div>
