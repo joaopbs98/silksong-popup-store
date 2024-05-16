@@ -18,6 +18,7 @@ const page = () => {
 
   const words = text.split(" ");
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [hoveredWordIndex, setHoveredWordIndex] = React.useState(-1);
 
   return (
