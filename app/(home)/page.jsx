@@ -40,11 +40,11 @@ const page = () => {
         <h1 className="font-erica leading-[0.85] text-[4rem] md:text-[9rem] xl:text-[14rem] 2xl:text-[22rem] text-center w-full">
           SILKSONG
         </h1>
-        <p className="text-lg">
+        <p className="text-md xl:text-lg p-6 text-center">
           Discover Korean Products in this Worldwide Pop-Up Store
         </p>
       </div>
-      <div className="flex w-full h-fit p-10 mb-20">
+      <div className="flex w-full h-fit p-4 xl:p-10 mb-20">
         <Card
           backgroundColor="#324242"
           text="Discover yourself"
@@ -53,7 +53,7 @@ const page = () => {
         />
       </div>
       <div className="flex flex-col gap-10">
-        <div className="flex flex-col lg:flex-row gap-[10rem] lg:gap-8 w-full p-4 lg:p-10">
+        <div className="flex flex-col lg:flex-row gap-[10rem] lg:gap-8 w-full p-4 pb-20 lg:p-10">
           {threeCards.map((item) => (
             <Card
               key={item.title}
