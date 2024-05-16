@@ -17,8 +17,8 @@ export const CardInfo = {
       content: "/thisneverthat.webp",
     },
     {
-      title: "Reemerging to help others",
-      content: "/helpVideo.mp4",
+      title: "FFFPostalService",
+      content: "/FFFPOSTALSERVICE.jpg",
     },
   ],
 };

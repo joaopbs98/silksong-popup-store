@@ -68,7 +68,7 @@ const Card = ({ text, content }) => {
       )}
       <div className="w-full h-24 bg-[#F1E0CE]  group-hover:rounded-[34px] rounded-none overflow-hidden transition-all duration-300 ease-default flex items-start justify-start p-4 flex-col gap-1">
         <div className="flex">
-          <Badge content="C2D" />
+          <Badge content="한국산" />
         </div>
         <p className="text-xl font-semibold text-black lg:text-2xl">{text}</p>
       </div>
