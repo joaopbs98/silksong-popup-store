@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #282828;
+  background: #f8f8f5;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/font/Nunito-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/font/Nunito-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/font/Nunito-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/font/Nunito-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/font/Nunito-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/font/Nunito-VariableFont_wght.ttf") format("opentype");
+}
+
+/* Font Family Configuration */
+@layer components {
+  .font-nunito {
+    font-family: "Nunito", sans-serif;
+  }
+}
+
+@font-face {
+  font-family: "Erica_One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/font/EricaOne-Regular.ttf") format("opentype");
+}
+
+@layer components {
+  .font-erica {
+    font-family: "Erica_One", sans-serif;
+  }
+}
