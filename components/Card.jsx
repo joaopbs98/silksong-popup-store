@@ -41,6 +41,7 @@ const Card = ({ text, content }) => {
             autoPlay
             muted
             loop
+            playsInline
             className="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
           />
         ) : (
