@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
-      <body className="font-nunito h-screen w-screen">{children}</body>
+      <body className="font-nunito h-screen w-screen overflow-x-hidden">
+        {children}
+      </body>
     </html>
   );
 }
