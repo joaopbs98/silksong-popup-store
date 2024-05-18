@@ -17,7 +17,7 @@ const List = () => {
   const cityImages = {
     LISBON: "/lisbon.jpg",
     TOKYO: "/tokyo.jpg",
-    MADRID: "/madrid.jpeg",
+    MADRID: "/madrid.webp",
   };
 
   const cityListItems = {
